@@ -7,7 +7,7 @@
 <body>
     <h1>Awo welkom op mijn website</h1>
     <h1><?php echo date(format:"M,d,Y") ?></h1>
-    <form action="verwerk.php" method="GET">
+    <form action="verwerk.php" method="POST">
         <label for="asd">voornaam</label>
         <input type="text" id="asd" name="voornaam">
         <input type="submit" value="verstuur">

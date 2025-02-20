@@ -1,2 +1,2 @@
 <?php
-echo $_GET['voornaam'];
+echo $_POST['voornaam'];
